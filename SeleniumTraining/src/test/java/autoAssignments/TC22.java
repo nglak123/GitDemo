@@ -52,7 +52,7 @@ public static void clickGoBtn() throws InterruptedException, IOException {
 	enterText(email,"octsel22@tekarch.com","usernameEle");
 	Thread.sleep(5000);
 	WebElement pwd=driver.findElement(By.id("password"));
-	enterText(pwd,"Sagar1234","passwordEle");	
+	enterText(pwd,"Sagar1234","passwordElement");	
 	clicklogin();
 	Thread.sleep(5000);
 	leadstab();
