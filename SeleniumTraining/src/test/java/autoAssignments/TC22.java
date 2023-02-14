@@ -21,7 +21,7 @@ public class TC22 extends TC21 {
 		clicklogout();
 		
 		Thread.sleep(5000);
-		//clickGoBtn();
+		clickGoBtn();
 		
 			}
 	
@@ -32,7 +32,7 @@ public static void leadsdrpdown() throws InterruptedException {
 	
 	WebElement leadsdrp=driver.findElement(By.xpath("//select[@id='fcf']"));
     enterText(leadsdrp, "Today's Leads");
-    Thread.sleep(5000);
+    Thread.sleep(9000);
     
     WebElement drp=driver.findElement(By.xpath("//select[@id='hotlist_mode']"));
     enterText(drp, "My Unread Leads");
@@ -48,30 +48,19 @@ public static void clickMyProfile() {
 }
 
 public static void clickGoBtn() throws InterruptedException, IOException {
-	
-	String mainWindowHandle = driver.getWindowHandle();
-    Set<String> allWindowHandles = driver.getWindowHandles();
-    Iterator<String> iterator = allWindowHandles.iterator();
-
-    // Here we will check if child window has other child windows and will fetch the heading of the child window
-    while (iterator.hasNext()) {
-        String ChildWindow = iterator.next();
-            if (!mainWindowHandle.equalsIgnoreCase(ChildWindow)) {
-            driver.switchTo().window(ChildWindow);
-            Thread.sleep(5000);
-            driver.close();
-            Thread.sleep(5000);
-            }
-            
-    }
-    driver.switchTo().window(mainWindowHandle);
+	WebElement email=driver.findElement(By.name("username"));
+	enterText(email,"octsel22@tekarch.com","usernameEle");
 	Thread.sleep(5000);
-	loginpage();
+	WebElement pwd=driver.findElement(By.id("password"));
+	enterText(pwd,"Sagar1234","passwordEle");	
 	clicklogin();
 	Thread.sleep(5000);
-	WebElement gobtn=driver.findElement(By.xpath("//input[@title='Go!']"));
+	leadstab();
+Thread.sleep(9000);
+		WebElement gobtn=driver.findElement(By.xpath("//input[@title='Go!']"));
 
 	gobtn.click();
+	System.out.println("TC22 is passed");
 
 }
 }
