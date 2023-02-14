@@ -19,7 +19,6 @@ public class TC22 extends TC21 {
 		leadsdrpdown();
 		clickMyProfile();
 		clicklogout();
-		
 		Thread.sleep(5000);
 		clickGoBtn();
 		
@@ -32,7 +31,7 @@ public static void leadsdrpdown() throws InterruptedException {
 	
 	WebElement leadsdrp=driver.findElement(By.xpath("//select[@id='fcf']"));
     enterText(leadsdrp, "Today's Leads");
-    Thread.sleep(9000);
+    Thread.sleep(5000);
     
     WebElement drp=driver.findElement(By.xpath("//select[@id='hotlist_mode']"));
     enterText(drp, "My Unread Leads");
