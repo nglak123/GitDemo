@@ -56,7 +56,7 @@ public static void clickGoBtn() throws InterruptedException, IOException {
 	clicklogin();
 	Thread.sleep(5000);
 	leadstab();
-Thread.sleep(9000);
+Thread.sleep(5000);
 		WebElement gobtn=driver.findElement(By.xpath("//input[@title='Go!']"));
 
 	gobtn.click();
