@@ -27,8 +27,8 @@ public class TC04B extends TC01 {
 		//div[@id='error']
 		WebElement err=driver.findElement(By.id("error"));
 		String Experr = "Please check your username and password. If you still can't log in, contact your Salesforce administrator.";
-		enterText(err, "errormsg");
-		validation(Experr, Experr, 4);
+		String act=enterText(err, "errormsg");
+		validation(act, Experr, 4);
 
 		
 	}

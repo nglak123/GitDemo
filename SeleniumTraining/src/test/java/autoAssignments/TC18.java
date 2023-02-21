@@ -22,7 +22,7 @@ public class TC18 extends TC15{
 		}
 	
 	
-	private static void oppostucklink() throws InterruptedException {
+	public static void oppostucklink() throws InterruptedException {
 		
 		Thread.sleep(5000);
 		driver.findElement(By.id("tryLexDialogX")).click();

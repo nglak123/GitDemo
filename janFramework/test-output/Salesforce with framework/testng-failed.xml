@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Salesforce with framework]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="tests(failed)">
+    <classes>
+      <class name="com.jan23.tests.Login">
+        <methods>
+          <include name="teatdownAfterTest"/>
+          <include name="contactsRecent"/>
+          <include name="editview"/>
+          <include name="teardownAfterTestMethod"/>
+          <include name="setUpBeforeTest"/>
+          <include name="setUpBeforeTestMethod"/>
+        </methods>
+      </class> <!-- com.jan23.tests.Login -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Salesforce with framework] -->

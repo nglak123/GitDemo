@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="navigator-link">
+              <span class="suite-name border-passed">Failed suite [Failed suite [Salesforce with framework]]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="navigator-link ">
+                    <span>C:\Users\admin\eclipse-workspace\janFramework\test-output\testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="hide-methods passed suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]"> (hide)</a> <!-- hide-methods passed suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]] -->
+                      <a href="#" panel-name="suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="show-methods passed suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]"> (show)</a> <!-- show-methods passed suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]] -->
+                    </span>
+                    <div class="method-list-content passed suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" title="com.jan23.tests.Login" class="method navigator-link" hash-for-method="editview">editview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]] -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="panel Failed_suite_[Failed_suite_[Salesforce_with_framework]]">
+          <div class="suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jan23.tests.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editview">
+                  </a> <!-- editview -->
+                  <span class="method-name">editview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Failed_suite_[Salesforce_with_framework]]-class-passed -->
+        </div> <!-- panel Failed_suite_[Failed_suite_[Salesforce_with_framework]] -->
+        <div panel-name="test-xml-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\eclipse-workspace\janFramework\test-output\testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Failed suite [Failed suite [Salesforce with framework]]&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;tests(failed)(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jan23.tests.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;teatdownAfterTest&quot;/&gt;
+          &lt;include name=&quot;editview&quot;/&gt;
+          &lt;include name=&quot;teardownAfterTestMethod&quot;/&gt;
+          &lt;include name=&quot;setUpBeforeTest&quot;/&gt;
+          &lt;include name=&quot;setUpBeforeTestMethod&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.jan23.tests.Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- tests(failed)(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Failed suite [Salesforce with framework]] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Failed suite [Salesforce with framework]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">tests(failed)(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Failed suite [Salesforce with framework]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Failed suite [Salesforce with framework]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite_[Failed_suite_[Salesforce_with_framework]]');
+function tableData_Failed_suite_[Failed_suite_[Salesforce_with_framework]]() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'editview')
+data.setCell(0, 2, 'com.jan23.tests.Login')
+data.setCell(0, 3, 77683);
+window.suiteTableData['Failed_suite_[Failed_suite_[Salesforce_with_framework]]']= { tableData: data, tableDiv: 'times-div-Failed_suite_[Failed_suite_[Salesforce_with_framework]]'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Failed_suite_[Failed_suite_[Salesforce_with_framework]]">
+              </div> <!-- times-div-Failed_suite_[Failed_suite_[Salesforce_with_framework]] -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Failed suite [Salesforce with framework]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">36 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.jan23.tests.Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">contactsnewview</span>
+                <br/>
+                <span class="ignored-method-name">contactsSave</span>
+                <br/>
+                <span class="ignored-method-name">leadstab</span>
+                <br/>
+                <span class="ignored-method-name">datelink</span>
+                <br/>
+                <span class="ignored-method-name">contactshome</span>
+                <br/>
+                <span class="ignored-method-name">loginNegTC</span>
+                <br/>
+                <span class="ignored-method-name">accountView</span>
+                <br/>
+                <span class="ignored-method-name">devconsole</span>
+                <br/>
+                <span class="ignored-method-name">merge</span>
+                <br/>
+                <span class="ignored-method-name">contactsdrp</span>
+                <br/>
+                <span class="ignored-method-name">contactsnew</span>
+                <br/>
+                <span class="ignored-method-name">random</span>
+                <br/>
+                <span class="ignored-method-name">oppostucklink</span>
+                <br/>
+                <span class="ignored-method-name">datlink</span>
+                <br/>
+                <span class="ignored-method-name">opportunitynew</span>
+                <br/>
+                <span class="ignored-method-name">selpersonal</span>
+                <br/>
+                <span class="ignored-method-name">acctName</span>
+                <br/>
+                <span class="ignored-method-name">clickMyProfile</span>
+                <br/>
+                <span class="ignored-method-name">leadsTodaysleads</span>
+                <br/>
+                <span class="ignored-method-name">opportunitylink</span>
+                <br/>
+                <span class="ignored-method-name">quaterlysummary</span>
+                <br/>
+                <span class="ignored-method-name">accReport</span>
+                <br/>
+                <span class="ignored-method-name">opportunity</span>
+                <br/>
+                <span class="ignored-method-name">loginpage</span>
+                <br/>
+                <span class="ignored-method-name">chklogout</span>
+                <br/>
+                <span class="ignored-method-name">leadlastname</span>
+                <br/>
+                <span class="ignored-method-name">mycontacts</span>
+                <br/>
+                <span class="ignored-method-name">contactsRecent</span>
+                <br/>
+                <span class="ignored-method-name">clickGoBtn</span>
+                <br/>
+                <span class="ignored-method-name">usernamedropdown</span>
+                <br/>
+                <span class="ignored-method-name">homepage</span>
+                <br/>
+                <span class="ignored-method-name">forgotpwd</span>
+                <br/>
+                <span class="ignored-method-name">contactsview</span>
+                <br/>
+                <span class="ignored-method-name">leadsdrp</span>
+                <br/>
+                <span class="ignored-method-name">custmytabs</span>
+                <br/>
+                <span class="ignored-method-name">rememberMe</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite_[Failed_suite_[Salesforce_with_framework]]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jan23.tests.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpBeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(chrome, public static void com.jan23.tests.Login.editview() throws java.lang.InterruptedException)</span>
+                <span class="method-start">1040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editview</span>
+                <span class="method-start">3874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardownAfterTestMethod</span>
+                <span class="method-start">81560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teatdownAfterTest</span>
+                <span class="method-start">81667 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="36" total="37" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-21T04:28:49Z" name="Failed suite [Failed suite [Salesforce with framework]]" finished-at="2023-02-21T04:30:12Z" duration-ms="82277">
+    <groups>
+    </groups>
+    <test started-at="2023-02-21T04:28:49Z" name="tests(failed)(failed)" finished-at="2023-02-21T04:30:12Z" duration-ms="82277">
+      <class name="com.jan23.tests.Login">
+        <test-method is-config="true" signature="setUpBeforeTest()[pri:0, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:28:49Z" name="setUpBeforeTest" finished-at="2023-02-21T04:28:50Z" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTest -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:28:51Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T04:28:53Z" duration-ms="2834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.editview() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="editview()[pri:12, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:28:53Z" name="editview" finished-at="2023-02-21T04:30:11Z" duration-ms="77683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editview -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:30:11Z" name="teardownAfterTestMethod" finished-at="2023-02-21T04:30:11Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="teatdownAfterTest()[pri:0, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:30:11Z" name="teatdownAfterTest" finished-at="2023-02-21T04:30:12Z" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatdownAfterTest -->
+      </class> <!-- com.jan23.tests.Login -->
+    </test> <!-- tests(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Salesforce with framework]] -->
+</testng-results>

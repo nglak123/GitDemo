@@ -43,7 +43,5 @@ public class TC26 extends TC25 {
 		
 		System.out.println("Testcase26 is passed");
 
-
 	}
-
-}
+	}
