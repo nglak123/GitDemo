@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Salesforce]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.training.listerners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="login(failed)">
+    <classes>
+      <class name="com.training.tests.DropDowntest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="selectCalender07D"/>
+        </methods>
+      </class> <!-- com.training.tests.DropDowntest -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [Salesforce] -->

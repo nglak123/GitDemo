@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Salesforce">
+
+<listeners>
+<listener class-name = "com.training.listerners.TestListener"></listener>
+</listeners>
+
+<test name="login">
+
+<classes>
+
+<!-- <class name="com.training.tests.logintest">-->
+<class name="com.training.tests.DropDowntest">
+
+</class>
+
+
+</classes>
+
+</test>
+
+</suite>
