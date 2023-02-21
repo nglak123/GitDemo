@@ -47,6 +47,7 @@ public static void loginpage() throws IOException,InterruptedException {
 public static void clicklogin() {
 	WebElement login=driver.findElement(By.id("Login"));
 	login.click();
+	System.out.println("login successfully");
 	
 }
 
