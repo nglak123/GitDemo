@@ -7,10 +7,12 @@
         <methods>
           <include name="teatdownAfterTest"/>
           <include name="contactsRecent"/>
+          <include name="acctName"/>
           <include name="editview"/>
           <include name="teardownAfterTestMethod"/>
           <include name="setUpBeforeTest"/>
           <include name="setUpBeforeTestMethod"/>
+          <include name="contactshome"/>
         </methods>
       </class> <!-- com.jan23.tests.Login -->
     </classes>

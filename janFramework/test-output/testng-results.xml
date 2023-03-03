@@ -1,17 +1,347 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="36" total="37" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="37" passed="33" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T04:28:49Z" name="Failed suite [Failed suite [Salesforce with framework]]" finished-at="2023-02-21T04:30:12Z" duration-ms="82277">
+  <suite started-at="2023-02-21T05:09:44Z" name="Salesforce with framework" finished-at="2023-02-21T05:34:31Z" duration-ms="1487357">
     <groups>
     </groups>
-    <test started-at="2023-02-21T04:28:49Z" name="tests(failed)(failed)" finished-at="2023-02-21T04:30:12Z" duration-ms="82277">
+    <test started-at="2023-02-21T05:09:44Z" name="tests" finished-at="2023-02-21T05:34:31Z" duration-ms="1487357">
       <class name="com.jan23.tests.Login">
-        <test-method is-config="true" signature="setUpBeforeTest()[pri:0, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:28:49Z" name="setUpBeforeTest" finished-at="2023-02-21T04:28:50Z" duration-ms="1022" status="PASS">
+        <test-method is-config="true" signature="setUpBeforeTest()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:09:44Z" name="setUpBeforeTest" finished-at="2023-02-21T05:09:45Z" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeTest -->
-        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:28:51Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T04:28:53Z" duration-ms="2834" status="PASS">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:09:45Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:09:51Z" duration-ms="5782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.loginNegTC() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="loginNegTC()[pri:1, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:09:51Z" name="loginNegTC" finished-at="2023-02-21T05:10:02Z" duration-ms="11220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegTC -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:02Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:10:02Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:02Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:10:04Z" duration-ms="1883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.loginpage() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="loginpage()[pri:2, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:04Z" name="loginpage" finished-at="2023-02-21T05:10:21Z" duration-ms="17464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:21Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:10:22Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:22Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:10:24Z" duration-ms="1970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.rememberMe() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="rememberMe()[pri:3, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:24Z" name="rememberMe" finished-at="2023-02-21T05:10:57Z" duration-ms="33009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rememberMe -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:57Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:10:57Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:57Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:10:59Z" duration-ms="1867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.forgotpwd()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="forgotpwd()[pri:4, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:10:59Z" name="forgotpwd" finished-at="2023-02-21T05:11:00Z" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpwd -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:11:00Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:11:00Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:11:00Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:11:02Z" duration-ms="1840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.usernamedropdown() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="usernamedropdown()[pri:5, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:11:02Z" name="usernamedropdown" finished-at="2023-02-21T05:11:19Z" duration-ms="16977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernamedropdown -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:11:19Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:11:19Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:11:19Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:11:21Z" duration-ms="1679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.clickMyProfile() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="clickMyProfile()[pri:6, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:11:21Z" name="clickMyProfile" finished-at="2023-02-21T05:12:14Z" duration-ms="53473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMyProfile -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:12:14Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:12:14Z" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:12:14Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:12:16Z" duration-ms="1752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.selpersonal() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="selpersonal()[pri:7, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:12:16Z" name="selpersonal" finished-at="2023-02-21T05:12:38Z" duration-ms="22164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selpersonal -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:12:38Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:12:38Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:12:38Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:12:40Z" duration-ms="1754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.devconsole() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="devconsole()[pri:8, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:12:40Z" name="devconsole" finished-at="2023-02-21T05:12:58Z" duration-ms="17825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- devconsole -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:12:58Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:12:58Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:12:58Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:13:00Z" duration-ms="2251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.chklogout() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="chklogout()[pri:9, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:13:00Z" name="chklogout" finished-at="2023-02-21T05:13:18Z" duration-ms="17582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chklogout -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:13:18Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:13:18Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:13:18Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:13:20Z" duration-ms="1687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.acctName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="acctName()[pri:10, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:13:20Z" name="acctName" finished-at="2023-02-21T05:13:44Z" duration-ms="24527" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b56d4ebe22bf5709300a4d5764534d3
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b56d4ebe22bf5709300a4d5764534d3
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.jan23.tests.Login.acctName(Login.java:345)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acctName -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:13:44Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:13:44Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:13:44Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:13:46Z" duration-ms="1665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.accountView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="accountView()[pri:11, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:13:46Z" name="accountView" finished-at="2023-02-21T05:14:23Z" duration-ms="37096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountView -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:14:23Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:14:23Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:14:23Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:14:25Z" duration-ms="1712" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,19 +357,796 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeTestMethod -->
-        <test-method signature="editview()[pri:12, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:28:53Z" name="editview" finished-at="2023-02-21T04:30:11Z" duration-ms="77683" status="PASS">
+        <test-method signature="editview()[pri:12, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:14:25Z" name="editview" finished-at="2023-02-21T05:14:54Z" duration-ms="29564" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: vee77
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: vee77
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.jan23.base.basetest.dropdown(basetest.java:137)
+at com.jan23.tests.Login.editview(Login.java:434)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editview -->
-        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:30:11Z" name="teardownAfterTestMethod" finished-at="2023-02-21T04:30:11Z" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:14:54Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:14:55Z" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownAfterTestMethod -->
-        <test-method is-config="true" signature="teatdownAfterTest()[pri:0, instance:com.jan23.tests.Login@318ba8c8]" started-at="2023-02-21T04:30:11Z" name="teatdownAfterTest" finished-at="2023-02-21T04:30:12Z" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:14:55Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:14:56Z" duration-ms="1668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.merge() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="merge()[pri:13, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:14:56Z" name="merge" finished-at="2023-02-21T05:16:03Z" duration-ms="66649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- merge -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:16:03Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:16:03Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:16:03Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:16:05Z" duration-ms="1687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.accReport() throws java.lang.InterruptedException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="accReport()[pri:14, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:16:05Z" name="accReport" finished-at="2023-02-21T05:17:21Z" duration-ms="76345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accReport -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:17:21Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:17:21Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:17:21Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:17:23Z" duration-ms="1695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.opportunity() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="opportunity()[pri:15, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:17:23Z" name="opportunity" finished-at="2023-02-21T05:17:48Z" duration-ms="25239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunity -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:17:48Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:17:48Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:17:48Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:17:50Z" duration-ms="1752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.opportunitynew() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="opportunitynew()[pri:16, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:17:50Z" name="opportunitynew" finished-at="2023-02-21T05:18:35Z" duration-ms="44844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitynew -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:18:35Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:18:35Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:18:35Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:18:36Z" duration-ms="1677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.opportunitylink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="opportunitylink()[pri:17, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:18:36Z" name="opportunitylink" finished-at="2023-02-21T05:19:12Z" duration-ms="35519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitylink -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:19:12Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:19:12Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:19:12Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:19:14Z" duration-ms="1762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.oppostucklink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="oppostucklink()[pri:18, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:19:14Z" name="oppostucklink" finished-at="2023-02-21T05:19:55Z" duration-ms="41390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppostucklink -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:19:55Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:19:55Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:19:55Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:19:58Z" duration-ms="2787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.quaterlysummary() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="quaterlysummary()[pri:19, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:19:58Z" name="quaterlysummary" finished-at="2023-02-21T05:20:41Z" duration-ms="42710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quaterlysummary -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:20:41Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:20:41Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:20:41Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:20:43Z" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.leadstab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leadstab()[pri:20, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:20:43Z" name="leadstab" finished-at="2023-02-21T05:21:04Z" duration-ms="21757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadstab -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:21:04Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:21:04Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:21:04Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:21:06Z" duration-ms="1852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.leadsdrp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leadsdrp()[pri:21, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:21:06Z" name="leadsdrp" finished-at="2023-02-21T05:21:29Z" duration-ms="22417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadsdrp -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:21:29Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:21:29Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:21:29Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:21:31Z" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.clickGoBtn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="clickGoBtn()[pri:22, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:21:31Z" name="clickGoBtn" finished-at="2023-02-21T05:22:29Z" duration-ms="58257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGoBtn -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:22:29Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:22:29Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:22:29Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:22:31Z" duration-ms="1646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.leadsTodaysleads() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leadsTodaysleads()[pri:23, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:22:31Z" name="leadsTodaysleads" finished-at="2023-02-21T05:23:04Z" duration-ms="33486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadsTodaysleads -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:23:04Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:23:04Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:23:04Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:23:06Z" duration-ms="1794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.leadlastname() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leadlastname()[pri:24, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:23:06Z" name="leadlastname" finished-at="2023-02-21T05:23:55Z" duration-ms="48971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadlastname -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:23:55Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:23:55Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:23:55Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:23:57Z" duration-ms="1966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.contactsnew() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="contactsnew()[pri:25, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:23:57Z" name="contactsnew" finished-at="2023-02-21T05:24:45Z" duration-ms="48331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsnew -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:24:45Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:24:45Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:24:45Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:24:47Z" duration-ms="1795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.contactsnewview() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="contactsnewview()[pri:26, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:24:47Z" name="contactsnewview" finished-at="2023-02-21T05:25:27Z" duration-ms="40170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsnewview -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:25:27Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:25:27Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:25:27Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:25:29Z" duration-ms="1483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.contactsdrp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="contactsdrp()[pri:27, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:25:29Z" name="contactsdrp" finished-at="2023-02-21T05:26:01Z" duration-ms="32021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsdrp -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:26:01Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:26:01Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:26:01Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:26:04Z" duration-ms="2958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.mycontacts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="mycontacts()[pri:28, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:26:04Z" name="mycontacts" finished-at="2023-02-21T05:26:35Z" duration-ms="31022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mycontacts -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:26:35Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:26:35Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:26:35Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:26:37Z" duration-ms="1701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.contactsRecent() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="contactsRecent()[pri:29, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:26:37Z" name="contactsRecent" finished-at="2023-02-21T05:26:58Z" duration-ms="21574" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 199214dd265e7fca94c408c7f4088c45
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 199214dd265e7fca94c408c7f4088c45
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.jan23.tests.Login.contactsRecent(Login.java:1235)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsRecent -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:26:58Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:26:59Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:26:59Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:27:00Z" duration-ms="1680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.contactsview() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="contactsview()[pri:30, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:27:00Z" name="contactsview" finished-at="2023-02-21T05:27:44Z" duration-ms="44276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsview -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:27:44Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:27:45Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:27:45Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:27:46Z" duration-ms="1903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.contactshome() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="contactshome()[pri:31, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:27:46Z" name="contactshome" finished-at="2023-02-21T05:28:13Z" duration-ms="26086" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d3852979089b750479b08b63676c16a
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d3852979089b750479b08b63676c16a
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.jan23.tests.Login.contactshome(Login.java:1319)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactshome -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:28:13Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:28:13Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:28:13Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:28:15Z" duration-ms="2221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.contactsSave() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="contactsSave()[pri:32, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:28:15Z" name="contactsSave" finished-at="2023-02-21T05:29:10Z" duration-ms="54745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsSave -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:29:10Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:29:10Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:29:10Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:29:11Z" duration-ms="1716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.homepage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="homepage()[pri:33, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:29:11Z" name="homepage" finished-at="2023-02-21T05:29:50Z" duration-ms="38253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:29:50Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:29:50Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:29:50Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:29:52Z" duration-ms="1761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.random() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="random()[pri:34, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:29:52Z" name="random" finished-at="2023-02-21T05:30:52Z" duration-ms="60327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- random -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:30:52Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:30:52Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:30:52Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:30:54Z" duration-ms="1683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.custmytabs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="custmytabs()[pri:35, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:30:54Z" name="custmytabs" finished-at="2023-02-21T05:31:52Z" duration-ms="58289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- custmytabs -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:31:52Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:31:52Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:31:52Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:31:54Z" duration-ms="1769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.datelink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="datelink()[pri:36, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:31:54Z" name="datelink" finished-at="2023-02-21T05:32:54Z" duration-ms="60060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datelink -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:32:54Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:32:54Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:32:54Z" name="setUpBeforeTestMethod" finished-at="2023-02-21T05:32:56Z" duration-ms="1817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.jan23.tests.Login.datlink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="datlink()[pri:37, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:32:56Z" name="datlink" finished-at="2023-02-21T05:34:31Z" duration-ms="95027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datlink -->
+        <test-method is-config="true" signature="teardownAfterTestMethod()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:34:31Z" name="teardownAfterTestMethod" finished-at="2023-02-21T05:34:31Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTestMethod -->
+        <test-method is-config="true" signature="teatdownAfterTest()[pri:0, instance:com.jan23.tests.Login@4445629]" started-at="2023-02-21T05:34:31Z" name="teatdownAfterTest" finished-at="2023-02-21T05:34:31Z" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatdownAfterTest -->
       </class> <!-- com.jan23.tests.Login -->
-    </test> <!-- tests(failed)(failed) -->
-  </suite> <!-- Failed suite [Failed suite [Salesforce with framework]] -->
+    </test> <!-- tests -->
+  </suite> <!-- Salesforce with framework -->
 </testng-results>

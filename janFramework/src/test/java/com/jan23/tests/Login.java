@@ -441,7 +441,7 @@ public static void editview() throws InterruptedException {
 	Thread.sleep(5000);
 	
 	WebElement editviewname=driver.findElement(By.xpath("//input[@id='fname']"));
-	enterText(editviewname, "vee33new", "editviewname");
+	enterText(editviewname, "vee88", "editviewname");
 	Thread.sleep(5000);
 	
 	WebElement field=driver.findElement(By.xpath("(//select[@id='fcol1'])[1]"));
@@ -584,7 +584,7 @@ public static void accReport() throws InterruptedException, AWTException {
 	Reportname.sendKeys("test report");
 	
 	WebElement unikreport=driver.findElement(By.xpath("//input[@id='saveReportDlg_DeveloperName']"));
-	unikreport.sendKeys("uniquetest90");
+	unikreport.sendKeys("uniquetest99");
 	Thread.sleep(5000);
 	WebElement saveandrun=driver.findElement(By.xpath("(//button[normalize-space()='Save and Run Report'])[1]"));
 	saveandrun.click();
